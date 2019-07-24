@@ -1,7 +1,169 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a1ba7a74-aa9d-4f27-b7a3-f152c3be9e8d" name="Default Changelist" comment="" />
+    <list default="true" id="a1ba7a74-aa9d-4f27-b7a3-f152c3be9e8d" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/classes/application-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/classes/application-pro.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/classes/application-test.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/classes/com/shadow/admin/AdminApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/classes/com/shadow/admin/controller/IndexController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT.war.original" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/classes/application-dev.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/classes/application-pro.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/classes/application-test.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/classes/application.yml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/classes/com/shadow/admin/AdminApplication.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/classes/com/shadow/admin/controller/IndexController.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/HikariCP-3.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/classmate-1.4.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/commons-lang3-3.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/druid-1.1.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/fastjson-1.2.58.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/hibernate-validator-6.0.16.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/jackson-annotations-2.9.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/jackson-core-2.9.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/jackson-databind-2.9.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/jackson-datatype-jdk8-2.9.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/jackson-datatype-jsr310-2.9.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/jackson-module-parameter-names-2.9.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/javax.annotation-api-1.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/jboss-logging-3.3.2.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/jsqlparser-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/jul-to-slf4j-1.7.26.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/lettuce-core-5.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/log4j-api-2.11.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/log4j-to-slf4j-2.11.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/logback-classic-1.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/logback-core-1.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/mybatis-3.5.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/mybatis-spring-2.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/mybatis-spring-boot-autoconfigure-2.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/mybatis-spring-boot-starter-2.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.47.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/netty-buffer-4.1.36.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/netty-codec-4.1.36.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/netty-common-4.1.36.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/netty-handler-4.1.36.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/netty-resolver-4.1.36.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/netty-transport-4.1.36.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/pagehelper-5.1.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/pagehelper-spring-boot-autoconfigure-1.2.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/pagehelper-spring-boot-starter-1.2.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/reactive-streams-1.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/reactor-core-3.2.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.26.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/snakeyaml-1.23.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-5.1.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-5.1.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-2.1.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-autoconfigure-2.1.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-2.1.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-data-redis-2.1.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-jdbc-2.1.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-json-2.1.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-logging-2.1.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-tomcat-2.1.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-web-2.1.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/spring-context-5.1.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/spring-context-support-5.1.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/spring-core-5.1.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/spring-data-commons-2.1.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/spring-data-keyvalue-2.1.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/spring-data-redis-2.1.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-5.1.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/spring-jcl-5.1.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-5.1.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/spring-oxm-5.1.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-5.1.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/spring-web-5.1.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-5.1.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/tomcat-embed-core-9.0.19.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/tomcat-embed-el-9.0.19.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/tomcat-embed-websocket-9.0.19.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/lib/validation-api-2.0.1.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-admin/target/shadow-admin-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-dao/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-dao/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-dao/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-dao/target/shadow-dao-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-domain/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-domain/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-domain/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-domain/target/shadow-domain-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-redis/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-redis/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-redis/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-redis/target/shadow-redis-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-service/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-service/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-service/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-service/target/shadow-service-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-util/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-util/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-util/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-util/target/shadow-util-1.0-SNAPSHOT.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-web/target/maven-archiver/pom.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-web/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-web/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-web/target/shadow-web-1.0-SNAPSHOT.war" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-web/target/shadow-web-1.0-SNAPSHOT/WEB-INF/lib/HikariCP-3.2.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-web/target/shadow-web-1.0-SNAPSHOT/WEB-INF/lib/commons-lang3-3.9.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-web/target/shadow-web-1.0-SNAPSHOT/WEB-INF/lib/druid-1.1.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-web/target/shadow-web-1.0-SNAPSHOT/WEB-INF/lib/fastjson-1.2.58.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-web/target/shadow-web-1.0-SNAPSHOT/WEB-INF/lib/javax.annotation-api-1.3.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-web/target/shadow-web-1.0-SNAPSHOT/WEB-INF/lib/jsqlparser-1.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-web/target/shadow-web-1.0-SNAPSHOT/WEB-INF/lib/jul-to-slf4j-1.7.26.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-web/target/shadow-web-1.0-SNAPSHOT/WEB-INF/lib/lettuce-core-5.1.6.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-web/target/shadow-web-1.0-SNAPSHOT/WEB-INF/lib/log4j-api-2.11.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-web/target/shadow-web-1.0-SNAPSHOT/WEB-INF/lib/log4j-to-slf4j-2.11.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-web/target/shadow-web-1.0-SNAPSHOT/WEB-INF/lib/logback-classic-1.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-web/target/shadow-web-1.0-SNAPSHOT/WEB-INF/lib/logback-core-1.2.3.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-web/target/shadow-web-1.0-SNAPSHOT/WEB-INF/lib/mybatis-3.5.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-web/target/shadow-web-1.0-SNAPSHOT/WEB-INF/lib/mybatis-spring-2.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-web/target/shadow-web-1.0-SNAPSHOT/WEB-INF/lib/mybatis-spring-boot-autoconfigure-2.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-web/target/shadow-web-1.0-SNAPSHOT/WEB-INF/lib/mybatis-spring-boot-starter-2.0.0.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-web/target/shadow-web-1.0-SNAPSHOT/WEB-INF/lib/mysql-connector-java-5.1.47.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-web/target/shadow-web-1.0-SNAPSHOT/WEB-INF/lib/netty-buffer-4.1.36.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-web/target/shadow-web-1.0-SNAPSHOT/WEB-INF/lib/netty-codec-4.1.36.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-web/target/shadow-web-1.0-SNAPSHOT/WEB-INF/lib/netty-common-4.1.36.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-web/target/shadow-web-1.0-SNAPSHOT/WEB-INF/lib/netty-handler-4.1.36.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-web/target/shadow-web-1.0-SNAPSHOT/WEB-INF/lib/netty-resolver-4.1.36.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-web/target/shadow-web-1.0-SNAPSHOT/WEB-INF/lib/netty-transport-4.1.36.Final.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-web/target/shadow-web-1.0-SNAPSHOT/WEB-INF/lib/pagehelper-5.1.8.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-web/target/shadow-web-1.0-SNAPSHOT/WEB-INF/lib/pagehelper-spring-boot-autoconfigure-1.2.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-web/target/shadow-web-1.0-SNAPSHOT/WEB-INF/lib/pagehelper-spring-boot-starter-1.2.10.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-web/target/shadow-web-1.0-SNAPSHOT/WEB-INF/lib/reactive-streams-1.0.2.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-web/target/shadow-web-1.0-SNAPSHOT/WEB-INF/lib/reactor-core-3.2.9.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-web/target/shadow-web-1.0-SNAPSHOT/WEB-INF/lib/slf4j-api-1.7.26.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-web/target/shadow-web-1.0-SNAPSHOT/WEB-INF/lib/snakeyaml-1.23.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-web/target/shadow-web-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-5.1.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-web/target/shadow-web-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-5.1.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-web/target/shadow-web-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-2.1.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-web/target/shadow-web-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-autoconfigure-2.1.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-web/target/shadow-web-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-2.1.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-web/target/shadow-web-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-data-redis-2.1.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-web/target/shadow-web-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-jdbc-2.1.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-web/target/shadow-web-1.0-SNAPSHOT/WEB-INF/lib/spring-boot-starter-logging-2.1.5.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-web/target/shadow-web-1.0-SNAPSHOT/WEB-INF/lib/spring-context-5.1.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-web/target/shadow-web-1.0-SNAPSHOT/WEB-INF/lib/spring-context-support-5.1.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-web/target/shadow-web-1.0-SNAPSHOT/WEB-INF/lib/spring-core-5.1.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-web/target/shadow-web-1.0-SNAPSHOT/WEB-INF/lib/spring-data-commons-2.1.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-web/target/shadow-web-1.0-SNAPSHOT/WEB-INF/lib/spring-data-keyvalue-2.1.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-web/target/shadow-web-1.0-SNAPSHOT/WEB-INF/lib/spring-data-redis-2.1.8.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-web/target/shadow-web-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-5.1.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-web/target/shadow-web-1.0-SNAPSHOT/WEB-INF/lib/spring-jcl-5.1.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-web/target/shadow-web-1.0-SNAPSHOT/WEB-INF/lib/spring-jdbc-5.1.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-web/target/shadow-web-1.0-SNAPSHOT/WEB-INF/lib/spring-oxm-5.1.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-web/target/shadow-web-1.0-SNAPSHOT/WEB-INF/lib/spring-tx-5.1.7.RELEASE.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-web/target/shadow-web-1.0-SNAPSHOT/WEB-INF/web.xml" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/shadow-web/target/" />
     <ignored path="$PROJECT_DIR$/shadow-dao/target/" />
@@ -25,8 +187,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="333">
-              <caret line="34" column="53" lean-forward="true" selection-start-line="34" selection-start-column="53" selection-end-line="34" selection-end-column="53" />
+            <state relative-caret-position="107">
+              <caret line="34" column="53" selection-start-line="34" selection-start-column="53" selection-end-line="34" selection-end-column="53" />
             </state>
           </provider>
         </entry>
@@ -39,6 +201,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -80,8 +245,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="171" />
-    <option name="y" value="23" />
+    <option name="x" value="170" />
+    <option name="y" value="22" />
     <option name="width" value="1750" />
     <option name="height" value="980" />
   </component>
@@ -90,9 +255,19 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="ProjectPane" />
       <pane id="Scope" />
       <pane id="PackagesPane" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="shadow" type="b2602c69:ProjectViewProjectNode" />
+              <item name="shadow" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -100,6 +275,7 @@
     <property name="RequestMappingsPanelOrder1" value="1" />
     <property name="RequestMappingsPanelWidth0" value="75" />
     <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/shadow-admin/src/main/resources" />
@@ -159,17 +335,17 @@
       <workItem from="1563639721206" duration="29216000" />
       <workItem from="1563669531635" duration="919000" />
       <workItem from="1563694571180" duration="7724000" />
+      <workItem from="1563980596906" duration="375000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37859000" />
+    <option name="totallyTimeSpent" value="38234000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.13538875" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.13672923" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -177,10 +353,9 @@
       <window_info id="UI Designer" order="5" />
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Web" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Spring" weight="0.32956153" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.47241867" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.4716714" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.46534654" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -192,6 +367,7 @@
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
+      <window_info anchor="bottom" id="Spring" order="14" weight="0.32956153" />
       <window_info anchor="right" id="Bean Validation" order="0" weight="0.3297587" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="1" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Maven" order="2" visible="true" weight="0.22855228" />
@@ -414,8 +590,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="333">
-          <caret line="34" column="53" lean-forward="true" selection-start-line="34" selection-start-column="53" selection-end-line="34" selection-end-column="53" />
+        <state relative-caret-position="107">
+          <caret line="34" column="53" selection-start-line="34" selection-start-column="53" selection-end-line="34" selection-end-column="53" />
         </state>
       </provider>
     </entry>
