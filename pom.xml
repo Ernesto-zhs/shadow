@@ -17,7 +17,7 @@
     <modules>
         <module>shadow-domain</module>
         <module>shadow-dao</module>
-        <module>shadow-common</module>
+        <module>shadow-commons</module>
         <module>shadow-core</module>
         <module>shadow-redis</module>
         <module>shadow-service</module>
@@ -35,13 +35,19 @@
         <ali.fastjson.version>1.2.58</ali.fastjson.version>
         <ali.druid.version>1.1.10</ali.druid.version>
         <apache.common.version>3.9</apache.common.version>
+        <mybatis-plus.version>3.3.0</mybatis-plus.version>
     </properties>
 
     <dependencyManagement>
         <dependencies>
             <dependency>
                 <groupId>con.zhs</groupId>
-                <artifactId>shadow-common</artifactId>
+                <artifactId>shadow-commons</artifactId>
+                <version>${shadow.api}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.zhs</groupId>
+                <artifactId>shadow-core</artifactId>
                 <version>${shadow.api}</version>
             </dependency>
             <dependency>
@@ -61,11 +67,6 @@
             </dependency>
             <dependency>
                 <groupId>com.zhs</groupId>
-                <artifactId>shadow-core</artifactId>
-                <version>${shadow.api}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.zhs</groupId>
                 <artifactId>shadow-service</artifactId>
                 <version>${shadow.api}</version>
             </dependency>
@@ -79,12 +80,39 @@
                 <artifactId>shadow-api-web</artifactId>
                 <version>${shadow.api}</version>
             </dependency>
-            <dependency>
-                <groupId>com.zhs</groupId>
-                <artifactId>shadow-api-web</artifactId>
-                <version>${shadow.api}</version>
-            </dependency>
         </dependencies>
     </dependencyManagement>
+
+    <dependencies>
+        <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+        <!--  lombok插件      -->
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+        </dependency>
+        <!--    spring-boot 全家桶 -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-aop</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-test</artifactId>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.baomidou</groupId>
+            <artifactId>mybatis-plus-boot-starter</artifactId>
+            <version>${mybatis-plus.version}</version>
+        </dependency>
+    </dependencies>
 
 </project>

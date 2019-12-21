@@ -8,8 +8,7 @@ spring:
     active: dev
 
   datasource:
-    url: jdbc:mysql://rm-bp1v3b17u4324jt704o.mysql.rds.aliyuncs.com:3306/shadow
-    driver-class-name: com.mysql.jdbc.Driver
+    url: jdbc:mysql://rm-bp1v3b17u4324jt704o.mysql.rds.aliyuncs.com:3306/shadow?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai
     username: zhs
     password: Hs123456
     max-idle: 10
@@ -19,3 +18,4 @@ spring:
     remove-abandoned: true
     remove-abandoned-timeout: 60
     sqlScriptEncoding: UTF-8
+

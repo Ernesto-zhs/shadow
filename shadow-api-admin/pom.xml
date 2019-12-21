@@ -12,18 +12,6 @@
     <artifactId>shadow-admin</artifactId>
     <packaging>war</packaging>
 
-    <dependencies>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
-    </dependencies>
-
     <!-- 注意:此插件不能够放在父类当中,会被打包多次,报异常 -->
     <build>
         <plugins>

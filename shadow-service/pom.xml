@@ -11,4 +11,8 @@
 
     <artifactId>shadow-service</artifactId>
 
+    <dependencies>
+
+    </dependencies>
+
 </project>
