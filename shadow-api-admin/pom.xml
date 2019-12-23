@@ -17,6 +17,15 @@
             <groupId>com.zhs</groupId>
             <artifactId>shadow-service</artifactId>
         </dependency>
+        <!-- swagger -->
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger-ui</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>io.springfox</groupId>
+            <artifactId>springfox-swagger2</artifactId>
+        </dependency>
     </dependencies>
 
     <!-- 注意:此插件不能够放在父类当中,会被打包多次,报异常 -->
