@@ -12,6 +12,13 @@
     <artifactId>shadow-admin</artifactId>
     <packaging>war</packaging>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.zhs</groupId>
+            <artifactId>shadow-service</artifactId>
+        </dependency>
+    </dependencies>
+
     <!-- 注意:此插件不能够放在父类当中,会被打包多次,报异常 -->
     <build>
         <plugins>

@@ -12,7 +12,14 @@
     <artifactId>shadow-service</artifactId>
 
     <dependencies>
-
+        <dependency>
+            <groupId>com.zhs</groupId>
+            <artifactId>shadow-dao</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>com.zhs</groupId>
+            <artifactId>shadow-redis</artifactId>
+        </dependency>
     </dependencies>
 
 </project>
