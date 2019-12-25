@@ -1,23 +1,9 @@
 server:
-  port: 8081
+  port: 8080
 
 spring:
   application:
-    name: shadow-admin
+    name: shadow-api-admin
   profiles:
     active: dev
-
-  datasource:
-    url: jdbc:mysql://rm-bp1v3b17u4324jt704o.mysql.rds.aliyuncs.com:3306/shadow?useUnicode=true&characterEncoding=utf-8&serverTimezone=Asia/Shanghai&useSSL=false
-    username: root
-    password: Hs123456
-    type: com.zaxxer.hikari.HikariDataSource
-    driver-class-name: com.mysql.jdbc.Driver
-    max-idle: 10
-    max-active: 15
-    max-lifetime: 86430000
-    log-abandoned: true
-    remove-abandoned: true
-    remove-abandoned-timeout: 60
-    sqlScriptEncoding: UTF-8
 
