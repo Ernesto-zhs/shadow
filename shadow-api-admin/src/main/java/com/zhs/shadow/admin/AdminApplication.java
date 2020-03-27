@@ -6,6 +6,10 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 
+/**
+ * 管理端启动类
+ * @author Austin
+ */
 @SpringBootApplication
 @MapperScan(basePackages = "com.zhs.shadow.dao.mapper")
 public class AdminApplication extends SpringBootServletInitializer {

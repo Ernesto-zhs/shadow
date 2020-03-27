@@ -1,6 +1,10 @@
 package com.zhs.shadow.common.exception;
 
-public class GlobalException extends Exception{
+/**
+ * 全局异常
+ * @author Austin
+ */
+public class GlobalException extends Exception {
 
     private static final long serialVersionUID = -4898391456129363730L;
 

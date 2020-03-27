@@ -1,9 +1,8 @@
 package com.zhs.shadow.common.enums;
 
 /**
- * 作者 Austin
- * 时间 2019-07-11 22:59
  * 响应状态码,各种业务的异常反馈码
+ * @author Austin
  */
 public enum ResponseCode {
 
@@ -20,7 +19,7 @@ public enum ResponseCode {
      */
     private String desc;
 
-    private ResponseCode(int code, String desc) {
+    ResponseCode(int code, String desc) {
         this.code = code;
         this.desc = desc;
     }

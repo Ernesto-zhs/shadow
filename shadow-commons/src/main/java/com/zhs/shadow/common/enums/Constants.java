@@ -1,10 +1,8 @@
 package com.zhs.shadow.common.enums;
 
 /**
- * @创建作者 Austin
- * @创建时间 2019-07-11 22:54
- * <p>
  * 常量接口 用于保存各种系统常量值的定义
+ * @author Austin
  */
 public interface Constants {
 
@@ -19,7 +17,7 @@ public interface Constants {
         int NORMAL = 0;
 
         /**
-         * 禁用
+         * 删除
          */
         int DELETE = 1;
 
