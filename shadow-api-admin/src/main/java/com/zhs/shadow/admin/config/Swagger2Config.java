@@ -27,7 +27,7 @@ public class Swagger2Config {
                 .groupName("admin")
                 .apiInfo(apiInfo())
                 .select()
-                .apis(RequestHandlerSelectors.basePackage("com.zhs.api.admin.controller"))
+                .apis(RequestHandlerSelectors.basePackage("com.zhs.shadow.admin.controller"))
                 .paths(PathSelectors.any())
                 .build();
     }
