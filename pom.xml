@@ -22,7 +22,6 @@
         <module>shadow-redis</module>
         <module>shadow-service</module>
         <module>shadow-api-admin</module>
-        <module>shadow-api-web</module>
     </modules>
     <properties>
         <shadow.api>1.0-SNAPSHOT</shadow.api>
@@ -32,7 +31,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <pagehelper.version>1.2.10</pagehelper.version>
-        <ali.fastjson.version>1.2.62</ali.fastjson.version>
+        <ali.fastjson.version>1.2.68</ali.fastjson.version>
         <ali.druid.version>1.1.10</ali.druid.version>
         <apache.common.version>3.9</apache.common.version>
         <mybatis-plus.version>3.3.0</mybatis-plus.version>
@@ -75,11 +74,6 @@
             <dependency>
                 <groupId>com.zhs</groupId>
                 <artifactId>shadow-api-admin</artifactId>
-                <version>${shadow.api}</version>
-            </dependency>
-            <dependency>
-                <groupId>com.zhs</groupId>
-                <artifactId>shadow-api-web</artifactId>
                 <version>${shadow.api}</version>
             </dependency>
             <!-- mybatis-plus 数据库框架 -->
@@ -129,29 +123,61 @@
     <!-- 在这里定义每一个module都要使用的包,非每一个模块都要使用的,定义在dependencyManagement当中 -->
     <dependencies>
         <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
-        <!--  lombok插件      -->
+        <!--  lombok插件  -->
         <dependency>
             <groupId>org.projectlombok</groupId>
             <artifactId>lombok</artifactId>
         </dependency>
+        <!-- https://mvnrepository.com/artifact/com.alibaba/fastjson -->
+        <!--json解析工具-->
+        <dependency>
+            <groupId>com.alibaba</groupId>
+            <artifactId>fastjson</artifactId>
+            <version>${ali.fastjson.version}</version>
+        </dependency>
+        <!-- apache-commons的内容 -->
+        <!-- https://mvnrepository.com/artifact/commons-io/commons-io -->
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>2.6</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-lang3 -->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-lang3</artifactId>
+            <version>3.10</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/org.apache.commons/commons-collections4 -->
+        <dependency>
+            <groupId>org.apache.commons</groupId>
+            <artifactId>commons-collections4</artifactId>
+            <version>4.4</version>
+        </dependency>
+        <!-- https://mvnrepository.com/artifact/commons-beanutils/commons-beanutils -->
+        <dependency>
+            <groupId>commons-beanutils</groupId>
+            <artifactId>commons-beanutils</artifactId>
+            <version>1.9.4</version>
+        </dependency>
         <!--    spring-boot 全家桶 -->
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-web</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-actuator</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-aop</artifactId>
-        </dependency>
-        <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-test</artifactId>
-            <scope>test</scope>
-        </dependency>
+        <!--<dependency>-->
+            <!--<groupId>org.springframework.boot</groupId>-->
+            <!--<artifactId>spring-boot-starter-web</artifactId>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>org.springframework.boot</groupId>-->
+            <!--<artifactId>spring-boot-starter-actuator</artifactId>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>org.springframework.boot</groupId>-->
+            <!--<artifactId>spring-boot-starter-aop</artifactId>-->
+        <!--</dependency>-->
+        <!--<dependency>-->
+            <!--<groupId>org.springframework.boot</groupId>-->
+            <!--<artifactId>spring-boot-starter-test</artifactId>-->
+            <!--<scope>test</scope>-->
+        <!--</dependency>-->
     </dependencies>
 
 </project>
