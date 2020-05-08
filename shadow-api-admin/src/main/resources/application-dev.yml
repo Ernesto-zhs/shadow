@@ -9,7 +9,7 @@ spring:
     password: Hs123456
     hikari:
       # 连接只读数据库时配置为true， 保证安全
-      read-only: on
+      read-only: false
       # 等待连接池分配连接的最大时长（毫秒），超过这个时长还没可用的连接则发生SQLException， 缺省:30秒
       connection-timeout: 30000
       # 一个连接idle状态的最大时长（毫秒），超时则被释放（retired），缺省:10分钟

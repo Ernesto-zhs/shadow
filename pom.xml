@@ -22,6 +22,7 @@
         <module>shadow-redis</module>
         <module>shadow-service</module>
         <module>shadow-api-admin</module>
+        <module>shadow-generate</module>
     </modules>
     <properties>
         <shadow.api>1.0-SNAPSHOT</shadow.api>

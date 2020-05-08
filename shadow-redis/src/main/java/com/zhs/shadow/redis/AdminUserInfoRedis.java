@@ -6,6 +6,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.RedisTemplate;
 import org.springframework.stereotype.Component;
 
+/**
+ * 管理员信息redis
+ * @author Austin
+ */
 @Component
 public class AdminUserInfoRedis {
 
@@ -13,7 +17,6 @@ public class AdminUserInfoRedis {
 
     @Autowired
     private RedisTemplate<String, String> redisTemplate;
-
 
 
 }

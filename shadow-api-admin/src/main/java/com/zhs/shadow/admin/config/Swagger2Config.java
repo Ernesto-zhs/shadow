@@ -16,7 +16,6 @@ import org.springframework.context.annotation.Configuration;
  * 项目启动后可通过地址：http://host:ip/swagger-ui.html 查看在线文档
  * @author Austin
  */
-
 @Configuration
 @EnableSwagger2
 public class Swagger2Config {

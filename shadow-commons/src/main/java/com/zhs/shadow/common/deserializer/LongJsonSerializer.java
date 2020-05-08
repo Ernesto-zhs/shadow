@@ -1,4 +1,4 @@
-package com.zhs.shadow.admin.deserializer;
+package com.zhs.shadow.common.deserializer;
 
 import java.io.IOException;
 
