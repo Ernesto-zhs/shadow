@@ -8,7 +8,7 @@ import lombok.Data;
 
 @Data
 @ApiModel(value = "测试的DTO对象")
-public class TestDTO {
+public class BaseQueryDTO {
 
     @ApiModelProperty(value = "对象")
     private Map<String, Object> map;

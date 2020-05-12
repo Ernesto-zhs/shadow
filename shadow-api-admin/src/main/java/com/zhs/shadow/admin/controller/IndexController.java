@@ -5,7 +5,7 @@ import java.time.LocalDateTime;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 
-import com.zhs.shadow.admin.dto.TestDTO;
+import com.zhs.shadow.admin.dto.BaseQueryDTO;
 import com.zhs.shadow.admin.vo.test.TestVo;
 import com.zhs.shadow.common.response.CommonResult;
 import org.springframework.web.bind.annotation.RequestBody;
@@ -23,7 +23,7 @@ public class IndexController {
 
     @ApiOperation(value = "测试接口", httpMethod = "POST", notes = "测试接口")
     @RequestMapping(value = "/test", method = {RequestMethod.GET, RequestMethod.POST})
-    public CommonResult test(@RequestBody TestDTO dto) {
+    public CommonResult test(@RequestBody BaseQueryDTO dto) {
         TestVo vo = new TestVo();
         vo.setId(1L);
         vo.setName("你们好");
