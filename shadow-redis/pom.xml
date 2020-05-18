@@ -23,6 +23,12 @@
         <dependency>
             <groupId>com.zhs</groupId>
             <artifactId>shadow-domain</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>com.baomidou</groupId>
+                    <artifactId>mybatis-plus-boot-starter</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
     </dependencies>
 

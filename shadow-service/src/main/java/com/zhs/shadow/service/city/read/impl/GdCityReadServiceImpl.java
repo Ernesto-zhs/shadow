@@ -1,8 +1,9 @@
-package com.zhs.shadow.service.city.read;
+package com.zhs.shadow.service.city.read.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.zhs.shadow.dao.mapper.GdCityMapper;
 import com.zhs.shadow.domain.entity.city.GdCityEntity;
+import com.zhs.shadow.service.city.read.GdCityReadService;
 import org.springframework.stereotype.Service;
 
 /**

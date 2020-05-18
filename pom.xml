@@ -40,40 +40,48 @@
         <swagger-ui.version>2.9.2</swagger-ui.version>
         <jackson.version>2.11.0</jackson.version>
         <slf4j.version>1.7.30</slf4j.version>
+        <lombok.version>1.18.12</lombok.version>
     </properties>
 
     <dependencyManagement>
         <dependencies>
+            <!--公用工具模块-->
             <dependency>
                 <groupId>com.zhs</groupId>
                 <artifactId>shadow-commons</artifactId>
                 <version>${shadow.api}</version>
             </dependency>
+            <!--核心组件(容器)模块-->
             <dependency>
                 <groupId>com.zhs</groupId>
                 <artifactId>shadow-core</artifactId>
                 <version>${shadow.api}</version>
             </dependency>
+            <!--对象模块-->
             <dependency>
                 <groupId>com.zhs</groupId>
                 <artifactId>shadow-domain</artifactId>
                 <version>${shadow.api}</version>
             </dependency>
+            <!--数据库操作模块-->
             <dependency>
                 <groupId>com.zhs</groupId>
                 <artifactId>shadow-dao</artifactId>
                 <version>${shadow.api}</version>
             </dependency>
+            <!--redis操作模块-->
             <dependency>
                 <groupId>com.zhs</groupId>
                 <artifactId>shadow-redis</artifactId>
                 <version>${shadow.api}</version>
             </dependency>
+            <!--业务逻辑操作模块-->
             <dependency>
                 <groupId>com.zhs</groupId>
                 <artifactId>shadow-service</artifactId>
                 <version>${shadow.api}</version>
             </dependency>
+            <!--管理端api模块-->
             <dependency>
                 <groupId>com.zhs</groupId>
                 <artifactId>shadow-api-admin</artifactId>
@@ -194,18 +202,15 @@
                 <version>${slf4j.version}</version>
                 <scope>test</scope>
             </dependency>
+            <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
+            <dependency>
+                <groupId>org.projectlombok</groupId>
+                <artifactId>lombok</artifactId>
+                <version>${lombok.version}</version>
+                <!--<scope>provided</scope>-->
+            </dependency>
         </dependencies>
     </dependencyManagement>
-
-    <!-- 在这里定义每一个module都要使用的包,非每一个模块都要使用的,定义在dependencyManagement当中 -->
-    <dependencies>
-        <!-- https://mvnrepository.com/artifact/org.projectlombok/lombok -->
-        <!--  lombok插件  -->
-        <dependency>
-            <groupId>org.projectlombok</groupId>
-            <artifactId>lombok</artifactId>
-        </dependency>
-    </dependencies>
 
     <build>
         <plugins>
