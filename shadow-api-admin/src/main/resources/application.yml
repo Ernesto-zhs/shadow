@@ -6,12 +6,15 @@ spring:
     name: shadow-api-admin
   profiles:
     active: dev
+  jackson:
+    date-format: yyyy-MM-dd HH:mm:ss:SSS
+    time-zone: GMT+8
 
-#  redis: #redis配置信息
-#    lettuce:
-#      pool:
-#        min-idle: 0
-#        max-idle: 5
-#        max-wait: 5000ms
-#        max-active: 8
-#      shutdown-timeout: 10000ms
+  redis: #redis配置信息
+    lettuce:
+      pool:
+        min-idle: 0
+        max-idle: 5
+        max-wait: 5000ms
+        max-active: 8
+      shutdown-timeout: 10000ms
