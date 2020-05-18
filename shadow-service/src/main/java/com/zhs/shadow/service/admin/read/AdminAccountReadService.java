@@ -1,7 +1,7 @@
 package com.zhs.shadow.service.admin.read;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.zhs.shadow.admin.entity.admin.AdminAccountEntity;
+import com.zhs.shadow.domain.entity.admin.AdminAccountEntity;
 
 /**
  * <p>

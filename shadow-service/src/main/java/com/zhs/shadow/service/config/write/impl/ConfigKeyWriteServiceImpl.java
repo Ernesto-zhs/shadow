@@ -2,7 +2,7 @@ package com.zhs.shadow.service.config.write.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
 import com.zhs.shadow.dao.mapper.ConfigKeyMapper;
-import com.zhs.shadow.entity.config.ConfigKeyEntity;
+import com.zhs.shadow.domain.entity.config.ConfigKeyEntity;
 import com.zhs.shadow.service.config.write.ConfigKeyWriteService;
 import org.springframework.stereotype.Service;
 

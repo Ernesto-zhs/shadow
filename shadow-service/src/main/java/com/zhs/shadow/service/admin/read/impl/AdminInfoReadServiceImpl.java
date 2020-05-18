@@ -1,9 +1,9 @@
 package com.zhs.shadow.service.admin.read.impl;
 
 import com.baomidou.mybatisplus.extension.service.impl.ServiceImpl;
-import com.zhs.shadow.admin.dao.mapper.AdminInfoMapper;
+import com.zhs.shadow.dao.mapper.AdminInfoMapper;
 import com.zhs.shadow.domain.entity.admin.AdminInfoEntity;
-import com.zhs.shadow.admin.service.admin.read.AdminInfoReadService;
+import com.zhs.shadow.service.admin.read.AdminInfoReadService;
 import org.springframework.stereotype.Service;
 
 /**

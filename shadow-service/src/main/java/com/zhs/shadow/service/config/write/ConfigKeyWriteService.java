@@ -1,7 +1,7 @@
 package com.zhs.shadow.service.config.write;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.zhs.shadow.entity.config.ConfigKeyEntity;
+import com.zhs.shadow.domain.entity.config.ConfigKeyEntity;
 
 /**
  * <p>

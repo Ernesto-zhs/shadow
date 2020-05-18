@@ -11,5 +11,11 @@
 
     <artifactId>shadow-core</artifactId>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.zhs</groupId>
+            <artifactId>shadow-commons</artifactId>
+        </dependency>
+    </dependencies>
 
 </project>

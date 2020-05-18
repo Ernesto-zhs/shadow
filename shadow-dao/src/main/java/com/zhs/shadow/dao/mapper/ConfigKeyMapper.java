@@ -1,7 +1,7 @@
 package com.zhs.shadow.dao.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.zhs.shadow.entity.config.ConfigKeyEntity;
+import com.zhs.shadow.domain.entity.config.ConfigKeyEntity;
 
 /**
  * <p>

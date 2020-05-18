@@ -13,16 +13,16 @@
 
     <dependencies>
         <dependency>
-            <groupId>com.zhs</groupId>
-            <artifactId>shadow-commons</artifactId>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-data-redis</artifactId>
         </dependency>
         <dependency>
             <groupId>org.apache.commons</groupId>
             <artifactId>commons-pool2</artifactId>
         </dependency>
         <dependency>
-            <groupId>org.springframework.boot</groupId>
-            <artifactId>spring-boot-starter-data-redis</artifactId>
+            <groupId>com.zhs</groupId>
+            <artifactId>shadow-domain</artifactId>
         </dependency>
     </dependencies>
 

@@ -20,6 +20,10 @@
             <groupId>com.zhs</groupId>
             <artifactId>shadow-redis</artifactId>
         </dependency>
+        <dependency>
+            <groupId>com.zhs</groupId>
+            <artifactId>shadow-core</artifactId>
+        </dependency>
     </dependencies>
 
 </project>

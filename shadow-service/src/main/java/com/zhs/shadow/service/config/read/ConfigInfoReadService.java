@@ -1,7 +1,7 @@
 package com.zhs.shadow.service.config.read;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.zhs.shadow.entity.config.ConfigInfoEntity;
+import com.zhs.shadow.domain.entity.config.ConfigInfoEntity;
 
 /**
  * <p>
