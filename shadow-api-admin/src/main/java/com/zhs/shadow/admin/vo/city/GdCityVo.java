@@ -19,8 +19,7 @@ import com.zhs.shadow.domain.entity.BaseEntity;
  * @since 2020-05-18
  */
 @Data
-@EqualsAndHashCode(callSuper = true)
-@Accessors(chain = true)
+
 public class GdCityVo extends BaseVo {
 
     private static final long serialVersionUID = 1L;

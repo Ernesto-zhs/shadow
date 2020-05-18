@@ -18,8 +18,7 @@ import com.zhs.shadow.domain.entity.BaseEntity;
  * @since 2020-05-18
  */
 @Data
-@EqualsAndHashCode(callSuper = true)
-@Accessors(chain = true)
+
 @TableName("tb_admin_account")
 public class AdminAccountEntity extends BaseEntity {
 

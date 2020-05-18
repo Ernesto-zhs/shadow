@@ -1,6 +1,8 @@
 package com.zhs.shadow.admin.controller.config;
 
 
+import io.swagger.annotations.Api;
+
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -14,6 +16,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping("/admin/configInfo")
+@Api(value = "/admin/configInfo",description = "配置信息控制器")
 public class ConfigInfoController {
 
 }

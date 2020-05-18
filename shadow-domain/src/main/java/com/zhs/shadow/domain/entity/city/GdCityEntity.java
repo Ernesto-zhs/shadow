@@ -3,8 +3,6 @@ package com.zhs.shadow.domain.entity.city;
 import java.math.BigDecimal;
 
 import lombok.Data;
-import lombok.EqualsAndHashCode;
-import lombok.experimental.Accessors;
 
 import com.baomidou.mybatisplus.annotation.TableName;
 import com.zhs.shadow.domain.entity.BaseEntity;
@@ -13,13 +11,10 @@ import com.zhs.shadow.domain.entity.BaseEntity;
  * <p>
  * 高德地图城市数据信息表
  * </p>
- *
  * @author zhs
  * @since 2020-05-18
  */
 @Data
-@EqualsAndHashCode(callSuper = true)
-@Accessors(chain = true)
 @TableName("tb_gd_city")
 public class GdCityEntity extends BaseEntity {
 

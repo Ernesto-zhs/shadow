@@ -3,9 +3,12 @@ package com.zhs.shadow.admin.controller.admin;
 
 import java.util.List;
 
+import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 
 import com.zhs.shadow.common.response.CommonResult;
+import com.zhs.shadow.common.response.IErrorCode;
+import com.zhs.shadow.common.response.ResultCode;
 import com.zhs.shadow.domain.entity.city.GdCityEntity;
 import com.zhs.shadow.service.city.read.GdCityReadService;
 import org.slf4j.Logger;
@@ -22,6 +25,7 @@ import org.springframework.web.bind.annotation.*;
  */
 @RestController
 @RequestMapping("/admin/adminAccount")
+@Api(value = "/admin/adminAccount", description = "管理员账户控制器")
 public class AdminAccountController {
 
     /**
@@ -29,14 +33,6 @@ public class AdminAccountController {
      */
     private Logger logger = LoggerFactory.getLogger(AdminAccountController.class);
 
-    @Autowired
-    private GdCityReadService gdCityReadService;
 
-    @RequestMapping(value = "queryCityInfo", method = {RequestMethod.GET, RequestMethod.POST})
-    public @ResponseBody
-    Object queryCityInfo() {
-        List<GdCityEntity> list = gdCityReadService.list();
-        return CommonResult.success(list);
-    }
 
 }
