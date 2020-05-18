@@ -7,12 +7,11 @@ spring:
   profiles:
     active: dev
 
-  redis: #redis配置信息
-    lettuce:
-      pool:
-        min-idle:
-        max-idle:
-        max-wait:
-        max-active:
-        time-between-eviction-runs:
-      shutdown-timeout: 30000ms
+#  redis: #redis配置信息
+#    lettuce:
+#      pool:
+#        min-idle: 0
+#        max-idle: 5
+#        max-wait: 5000ms
+#        max-active: 8
+#      shutdown-timeout: 10000ms
