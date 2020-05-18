@@ -26,10 +26,6 @@ public class CodeGenerator {
 
     private static String mapperXmlPath = "com/zhs/shadow/dao/mapper";
 
-    private static final String WRITE_OR_READ = "Write";
-
-    private static final String  FEATURES_NAME = "config";
-
     /**
      * <p>
      * 读取控制台内容
@@ -52,12 +48,15 @@ public class CodeGenerator {
     public static void main(String[] args) {
         // 代码生成器
         AutoGenerator mpg = new AutoGenerator();
+        String moduleName = scanner("模块名称");
+        String featuresName = scanner("业务包名");
+        String read_or_write = scanner("Read Or Write");
         // 全局配置
-        mpg.setGlobalConfig(Config.getGlobalConfig(WRITE_OR_READ));
+        mpg.setGlobalConfig(Config.getGlobalConfig(read_or_write));
         // 数据源配置
         mpg.setDataSource(Config.getDataSourceConfig());
         // 包配置
-        mpg.setPackageInfo(Config.getPackageConfig(scanner("模块名称"), FEATURES_NAME, WRITE_OR_READ));
+        mpg.setPackageInfo(Config.getPackageConfig(moduleName, featuresName, read_or_write));
 
         // 自定义配置
         InjectionConfig cfg = new InjectionConfig() {
@@ -79,7 +78,7 @@ public class CodeGenerator {
             @Override
             public String outputFile(TableInfo tableInfo) {
                 // 自定义输出文件名 ， 如果你 Entity 设置了前后缀、此处注意 xml 的名称会跟着发生变化！！
-                return projectPath + "/src/main/resources/" + mapperXmlPath
+                return projectPath + "/shadow-generate/src/main/resources/" + mapperXmlPath
                         + "/" + tableInfo.getControllerName().split("Controller")[0] + "Mapper" + StringPool.DOT_XML;
             }
         });

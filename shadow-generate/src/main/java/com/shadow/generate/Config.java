@@ -25,7 +25,7 @@ public class Config {
     public static GlobalConfig getGlobalConfig(String writeOrRead) {
         GlobalConfig gc = new GlobalConfig();
         String projectPath = System.getProperty("user.dir");
-        gc.setOutputDir(projectPath + "/src/main/java");
+        gc.setOutputDir(projectPath + "/shadow-generate/src/main/java");
         gc.setAuthor(AUTHOR);
         gc.setOpen(false);
         gc.setSwagger2(true);
@@ -55,20 +55,23 @@ public class Config {
         } else {
             featuresName = "." + featuresName;
         }
-        if (StringUtils.isEmpty(writeOrRead)) {
-            writeOrRead = "";
+        if (StringUtils.isNotEmpty(writeOrRead)) {
+            if (writeOrRead.equals("Read")) {
+                writeOrRead = ".read";
+            } else if (writeOrRead.equals("Write")) {
+                writeOrRead = ".write";
+            }
         } else {
-            writeOrRead = "." + writeOrRead;
+            writeOrRead = "";
         }
         PackageConfig pc = new PackageConfig();
-        pc.setModuleName(moduleName);
         pc.setParent(PARENT_PACKAGE);
-        pc.setEntity("entity" + featuresName);
+        pc.setEntity("domain.entity" + featuresName);
         pc.setXml("dao.mapper.xml");
         pc.setMapper("dao.mapper");
         pc.setService("service" + featuresName + writeOrRead);
         pc.setServiceImpl("service" + featuresName + writeOrRead + ".impl");
-        pc.setController("controller" + featuresName);
+        pc.setController(moduleName + ".controller" + featuresName);
         return pc;
     }
 }

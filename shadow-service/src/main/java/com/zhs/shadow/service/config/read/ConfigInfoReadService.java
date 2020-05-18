@@ -1,4 +1,4 @@
-package com.zhs.shadow.service.config.write;
+package com.zhs.shadow.service.config.read;
 
 import com.baomidou.mybatisplus.extension.service.IService;
 import com.zhs.shadow.entity.config.ConfigInfoEntity;
@@ -11,6 +11,6 @@ import com.zhs.shadow.entity.config.ConfigInfoEntity;
  * @author zhs
  * @since 2020-05-18
  */
-public interface ConfigInfoWriteService extends IService<ConfigInfoEntity> {
+public interface ConfigInfoReadService extends IService<ConfigInfoEntity> {
 
 }
