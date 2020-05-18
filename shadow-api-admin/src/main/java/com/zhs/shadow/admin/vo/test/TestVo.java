@@ -3,7 +3,6 @@ package com.zhs.shadow.admin.vo.test;
 import io.swagger.annotations.ApiModel;
 import io.swagger.annotations.ApiModelProperty;
 import lombok.Data;
-import lombok.experimental.Accessors;
 
 import com.zhs.shadow.admin.vo.BaseVo;
 
