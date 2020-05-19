@@ -45,7 +45,7 @@ public class AdminUserInfoRedis {
      * @param id
      * @return
      */
-    private AdminInfoEntity getAdminInfo(Long id) {
+    public AdminInfoEntity getAdminInfo(Long id) {
         AdminInfoEntity entity = null;
         String s = redisTemplate.opsForValue().get(getUserDetailKey(id));
         if (StringUtils.isNotEmpty(s)) {
