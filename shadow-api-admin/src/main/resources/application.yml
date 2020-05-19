@@ -3,9 +3,15 @@ server:
 
 spring:
   application:
-    name: shadow-api-admin
+    name: shadow-admin-api
   profiles:
     active: dev
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss:SSS
     time-zone: GMT+8
+  servlet:
+    multipart:
+      max-file-size: 20MB
+      max-request-size: 30MB
+      file-size-threshold: 0
+      enabled: true
