@@ -14,7 +14,7 @@
     <dependencies>
         <dependency>
             <groupId>com.zhs</groupId>
-            <artifactId>shadow-commons</artifactId>
+            <artifactId>shadow-domain</artifactId>
         </dependency>
     </dependencies>
 

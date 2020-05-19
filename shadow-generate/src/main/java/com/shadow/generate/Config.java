@@ -28,7 +28,7 @@ public class Config {
         gc.setOutputDir(projectPath + "/shadow-generate/src/main/java");
         gc.setAuthor(AUTHOR);
         gc.setOpen(false);
-        gc.setSwagger2(true);
+        gc.setSwagger2(false);
         gc.setServiceName("%s" + writeOrRead + "Service");
         gc.setServiceImplName("%s" + writeOrRead + "ServiceImpl");
         gc.setEntityName("%sEntity");

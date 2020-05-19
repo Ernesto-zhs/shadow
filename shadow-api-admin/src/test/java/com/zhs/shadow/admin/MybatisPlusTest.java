@@ -5,7 +5,7 @@ import java.util.List;
 
 import com.baomidou.mybatisplus.core.conditions.update.UpdateWrapper;
 import com.zhs.shadow.domain.entity.city.GdCityEntity;
-import com.zhs.shadow.service.admin.write.AdminAccountWriteService;
+import com.zhs.shadow.service.admin.write.AdminUserAccountWriteService;
 import com.zhs.shadow.service.city.write.GdCityWriteService;
 import org.junit.Test;
 import org.junit.runner.RunWith;
@@ -18,7 +18,7 @@ import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
 public class MybatisPlusTest {
 
     @Autowired
-    private AdminAccountWriteService adminAccountWriteService;
+    private AdminUserAccountWriteService adminUserAccountWriteService;
     @Autowired
     private GdCityWriteService gdCityWriteService;
 

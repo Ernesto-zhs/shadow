@@ -1,7 +1,7 @@
 package com.zhs.shadow.service.admin.write;
 
 import com.baomidou.mybatisplus.extension.service.IService;
-import com.zhs.shadow.domain.entity.admin.AdminInfoEntity;
+import com.zhs.shadow.domain.entity.admin.AdminUserInfoEntity;
 
 /**
  * <p>
@@ -9,8 +9,8 @@ import com.zhs.shadow.domain.entity.admin.AdminInfoEntity;
  * </p>
  *
  * @author zhs
- * @since 2020-05-18
+ * @since 2020-05-19
  */
-public interface AdminInfoWriteService extends IService<AdminInfoEntity> {
+public interface AdminUserInfoWriteService extends IService<AdminUserInfoEntity> {
 
 }
