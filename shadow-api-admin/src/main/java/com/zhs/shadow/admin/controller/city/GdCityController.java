@@ -47,7 +47,7 @@ public class GdCityController {
     @ApiOperation(value = "查询所有城市信息", httpMethod = "POST")
     @RequestMapping(value = "/queryCityInfo", method = {RequestMethod.GET, RequestMethod.POST})
     public @ResponseBody
-    CommonResult queryCityInfo() {
+    CommonResult<List<GdCityVo>> queryCityInfo() {
         try {
             List<GdCityVo> voList = new ArrayList<GdCityVo>();
             List<GdCityEntity> list = gdCityReadService.list();
