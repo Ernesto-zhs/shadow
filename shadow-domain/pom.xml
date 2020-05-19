@@ -15,12 +15,6 @@
         <dependency>
             <groupId>com.zhs</groupId>
             <artifactId>shadow-commons</artifactId>
-            <exclusions>
-                <exclusion>
-                    <groupId>org.slf4j</groupId>
-                    <artifactId>slf4j-api</artifactId>
-                </exclusion>
-            </exclusions>
         </dependency>
     </dependencies>
 
