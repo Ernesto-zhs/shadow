@@ -4,7 +4,7 @@ import lombok.Data;
 
 /**
  * 通用返回对象
- * Created by macro on 2019/4/19.
+ * @author Austin
  */
 @Data
 public class CommonResult<T> {

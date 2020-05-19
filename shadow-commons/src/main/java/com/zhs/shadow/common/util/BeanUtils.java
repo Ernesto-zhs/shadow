@@ -12,7 +12,7 @@ public class BeanUtils {
 
     public static void copyProperties(Object orig, Object target) {
         try {
-            org.apache.commons.beanutils.BeanUtils.copyProperties(orig, target);
+            org.apache.commons.beanutils.BeanUtils.copyProperties(target, orig);
         } catch (Exception e) {
             e.printStackTrace();
         }

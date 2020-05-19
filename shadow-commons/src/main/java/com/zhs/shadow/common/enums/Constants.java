@@ -23,4 +23,18 @@ public interface Constants {
 
     }
 
+    /**
+     * 城市状态
+     */
+    interface CityState {
+        /**
+         * 启用
+         */
+        int ENABLE = 0;
+        /**
+         * 禁用
+         */
+        int DISABLE = 1;
+    }
+
 }

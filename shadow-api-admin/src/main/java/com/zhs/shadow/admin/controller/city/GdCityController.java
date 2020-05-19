@@ -1,13 +1,16 @@
 package com.zhs.shadow.admin.controller.city;
 
 
+import java.util.ArrayList;
 import java.util.List;
 
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 
+import com.zhs.shadow.admin.vo.city.GdCityVo;
 import com.zhs.shadow.common.response.CommonResult;
 import com.zhs.shadow.common.response.ResultCode;
+import com.zhs.shadow.common.util.BeanUtils;
 import com.zhs.shadow.domain.entity.city.GdCityEntity;
 import com.zhs.shadow.service.city.read.GdCityReadService;
 import com.zhs.shadow.service.city.write.GdCityWriteService;
@@ -41,16 +44,22 @@ public class GdCityController {
     @Autowired
     private GdCityWriteService gdCityWriteService;
 
-    @ApiOperation(value = "/queryCityInfo", httpMethod = "POST")
+    @ApiOperation(value = "查询所有城市信息", httpMethod = "POST")
     @RequestMapping(value = "/queryCityInfo", method = {RequestMethod.GET, RequestMethod.POST})
     public @ResponseBody
-    Object queryCityInfo() {
+    CommonResult queryCityInfo() {
         try {
+            List<GdCityVo> voList = new ArrayList<GdCityVo>();
             List<GdCityEntity> list = gdCityReadService.list();
-            return CommonResult.success(list);
+            for (GdCityEntity entity : list) {
+                GdCityVo vo = new GdCityVo();
+                BeanUtils.copyProperties(entity, vo);
+                voList.add(vo);
+            }
+            return CommonResult.success(voList);
         } catch (Exception e) {
             logger.error("查询失败", e);
-            return CommonResult.failed(ResultCode.FAILED);
+            return CommonResult.failed("查询所有城市信息失败");
         }
     }
 

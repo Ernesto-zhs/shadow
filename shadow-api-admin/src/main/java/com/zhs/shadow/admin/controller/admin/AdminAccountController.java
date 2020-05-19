@@ -1,20 +1,12 @@
 package com.zhs.shadow.admin.controller.admin;
 
 
-import java.util.List;
-
 import io.swagger.annotations.Api;
-import io.swagger.annotations.ApiOperation;
 
-import com.zhs.shadow.common.response.CommonResult;
-import com.zhs.shadow.common.response.IErrorCode;
-import com.zhs.shadow.common.response.ResultCode;
-import com.zhs.shadow.domain.entity.city.GdCityEntity;
-import com.zhs.shadow.service.city.read.GdCityReadService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
-import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.web.bind.annotation.*;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RestController;
 
 /**
  * <p>

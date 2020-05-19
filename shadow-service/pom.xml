@@ -19,10 +19,22 @@
         <dependency>
             <groupId>com.zhs</groupId>
             <artifactId>shadow-redis</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>com.zhs</groupId>
+                    <artifactId>shadow-domain</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
         <dependency>
             <groupId>com.zhs</groupId>
             <artifactId>shadow-core</artifactId>
+            <exclusions>
+                <exclusion>
+                    <groupId>com.zhs</groupId>
+                    <artifactId>shadow-domain</artifactId>
+                </exclusion>
+            </exclusions>
         </dependency>
     </dependencies>
 
