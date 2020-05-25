@@ -28,6 +28,11 @@ public class CommonPage<T> {
     private long total;
 
     /**
+     * 总页数
+     */
+    private long pages;
+
+    /**
      * 查询数据列表
      */
     private List<T> records;
