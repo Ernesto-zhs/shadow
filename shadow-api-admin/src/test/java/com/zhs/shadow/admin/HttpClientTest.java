@@ -6,6 +6,7 @@ import java.util.Map;
 
 import com.alibaba.fastjson.JSON;
 import com.alibaba.fastjson.JSONObject;
+import com.zhs.shadow.common.util.HttpClientUtils;
 
 public class HttpClientTest {
 
@@ -18,7 +19,7 @@ public class HttpClientTest {
                 dataMap.put("id", "26106");
                 Map<String, String> requestHeader = new HashMap<String, String>();
                 requestHeader.put("Content-Type:", "application/x-www-form-urlencoded");
-                String s = HttpClientUtil.invokePostHttpByJsonParam(url, JSONObject.toJSONString(dataMap), "UTF-8", requestHeader);
+                String s = HttpClientUtils.doPost(url, requestHeader, dataMap);
                 System.out.println("-----------------");
                 System.out.println(s);
             } catch (Exception e) {
