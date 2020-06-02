@@ -7,6 +7,16 @@ package com.zhs.shadow.common.enums;
 public interface Constants {
 
     /**
+     * 本地IPv4地址
+     */
+    String LOCAL_IPV4_ADDRESS = "127.0.0.1";
+
+    /**
+     * 本地localhost地址
+     */
+    String LOCALHOST_ADDRESS = "0:0:0:0:0:0:0:1";
+
+    /**
      * 数据删除状态
      */
     interface DeleteState {
