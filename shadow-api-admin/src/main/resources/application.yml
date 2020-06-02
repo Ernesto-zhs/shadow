@@ -5,7 +5,7 @@ spring:
   application:
     name: shadow-admin-api
   profiles:
-    active: dev
+    active: test
   jackson:
     date-format: yyyy-MM-dd HH:mm:ss:SSS
     time-zone: GMT+8

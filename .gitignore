@@ -12,3 +12,5 @@ target/
 
 # log #
 .log
+log/*
+Log/*

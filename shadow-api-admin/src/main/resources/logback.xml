@@ -8,7 +8,7 @@
              <level>ERROR</level>
          </filter>-->
         <encoder>
-            <pattern>%d %contextName [%thread] %-5level %logger{36} - %msg%n</pattern>
+            <pattern>%d %contextName [%thread] |%-5level| %logger{36} - %msg%n</pattern>
         </encoder>
     </appender>
 
@@ -18,7 +18,7 @@
             <fileNamePattern>${log.path}/logback.%d.log</fileNamePattern>
         </rollingPolicy>
         <encoder>
-            <pattern>%d %contextName [%thread] %-5level %logger{36} - %msg%n</pattern>
+            <pattern>%d %contextName [%thread] |%-5level| %logger{36} - %msg%n</pattern>
         </encoder>
     </appender>
 
