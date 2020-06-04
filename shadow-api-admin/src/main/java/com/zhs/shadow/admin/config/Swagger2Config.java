@@ -34,7 +34,7 @@ public class Swagger2Config {
     private ApiInfo apiInfo() {
         return new ApiInfoBuilder()
                 .title("shadow-admin API")
-                .description("bbd-shop管理后台API")
+                .description("shadow-admin管理后台API")
                 .termsOfServiceUrl("https://github.com/Ernesto-zhs/shadow.git")
                 .contact("https://github.com/Ernesto-zhs/shadow.git")
                 .version("1.0")
