@@ -50,15 +50,15 @@ public class Config {
     }
 
     public static PackageConfig getPackageConfig(String moduleName, String featuresName, String writeOrRead) {
-        if (StringUtils.isEmpty(featuresName)) {
+        if (StringUtils.isBlank(featuresName)) {
             featuresName = "";
         } else {
             featuresName = "." + featuresName;
         }
-        if (StringUtils.isNotEmpty(writeOrRead)) {
-            if (writeOrRead.equals("Read")) {
+        if (StringUtils.isNotBlank(writeOrRead)) {
+            if ("Read".equals(writeOrRead)) {
                 writeOrRead = ".read";
-            } else if (writeOrRead.equals("Write")) {
+            } else if ("Write".equals(writeOrRead)) {
                 writeOrRead = ".write";
             }
         } else {

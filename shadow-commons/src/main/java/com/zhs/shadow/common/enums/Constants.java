@@ -24,12 +24,12 @@ public interface Constants {
         /**
          * 启用
          */
-        int NORMAL = 0;
+        short NORMAL = 0;
 
         /**
          * 删除
          */
-        int DELETE = 1;
+        short DELETE = 1;
 
     }
 

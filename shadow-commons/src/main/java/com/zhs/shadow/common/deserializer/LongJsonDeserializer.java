@@ -9,6 +9,10 @@ import com.fasterxml.jackson.databind.JsonDeserializer;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+/**
+ * 反解析工具
+ * @author Austin
+ */
 public class LongJsonDeserializer extends JsonDeserializer<Long> {
 
 	private Logger logger = LoggerFactory.getLogger(LongJsonDeserializer.class);

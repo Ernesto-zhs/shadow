@@ -1,7 +1,5 @@
 package com.zhs.shadow.admin.task;
 
-import java.time.LocalDateTime;
-
 import com.zhs.shadow.service.music.write.MusicVoteWriteService;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -12,9 +10,9 @@ import org.springframework.scheduling.annotation.Scheduled;
 
 /**
  * @author Austin
+ * 主要用于标记配置类，兼备Component的效果
+ * 开启定时任务
  */
-//1.主要用于标记配置类，兼备Component的效果。
-// 2.开启定时任务
 @Configuration
 @EnableScheduling
 public class MusicVoteScheduleTask {
@@ -27,10 +25,13 @@ public class MusicVoteScheduleTask {
     @Autowired
     private MusicVoteWriteService musicVoteWriteService;
 
-    // 3.添加定时任务
-    @Scheduled(cron = "* * 10 * * ?")
-    //  或直接指定时间间隔，例如：5秒
-    //@Scheduled(fixedRate=5000)
+    /**
+     * 定时任务
+     * cron表达式  @Scheduled(cron = "* * * 10 * ?")
+     * 指定时间间隔 @Scheduled(fixedRate=5000)
+     * @throws Exception
+     */
+    @Scheduled(cron = "* * * 10 * ?")
     private void configureTasks() throws Exception {
         logger.info("定时任务开始");
         // musicVoteWriteService.refreshData();

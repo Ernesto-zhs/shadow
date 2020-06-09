@@ -12,10 +12,10 @@ import lombok.Data;
 public class BaseQueryDTO {
 
     @ApiModelProperty(value = "页码")
-    private Integer pageNum = 1;
+    private Integer pageNum;
 
     @ApiModelProperty(value = "每页显示的条数")
-    private Integer pageSize = 10;
+    private Integer pageSize;
 
 
 }

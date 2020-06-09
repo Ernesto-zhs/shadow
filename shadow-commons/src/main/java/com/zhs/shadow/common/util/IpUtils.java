@@ -60,7 +60,7 @@ public class IpUtils {
      * @param ip
      * @return
      */
-    public static String getMACAddress(String ip) {
+    public static String getMacAddress(String ip) {
         String str = "";
         String macAddress = "";
         try {

@@ -460,7 +460,8 @@ public class HttpClientUtils {
         HttpClient httpClient = new DefaultHttpClient();
 
         HttpPost httpPost = new HttpPost(reqURL);
-        List<NameValuePair> formParams = new ArrayList<NameValuePair>(); // 创建参数队列
+        // 创建参数队列
+        List<NameValuePair> formParams = new ArrayList<NameValuePair>();
         for (Map.Entry<String, String> entry : params.entrySet()) {
             formParams.add(new BasicNameValuePair(entry.getKey(), entry.getValue()));
         }
@@ -508,12 +509,15 @@ public class HttpClientUtils {
         String responseContent = "";
         HttpClient httpClient = new DefaultHttpClient();
         X509TrustManager xtm = new X509TrustManager() {
+            @Override
             public void checkClientTrusted(X509Certificate[] chain, String authType) throws CertificateException {
             }
 
+            @Override
             public void checkServerTrusted(X509Certificate[] chain, String authType) throws CertificateException {
             }
 
+            @Override
             public X509Certificate[] getAcceptedIssuers() {
                 return null;
             }
@@ -785,8 +789,9 @@ public class HttpClientUtils {
             StringBuilder strber = new StringBuilder();
 
             String line = null;
-            while ((line = reader.readLine()) != null)
+            while ((line = reader.readLine()) != null){
                 strber.append(line + "\n");
+            }
             inStream.close();
             logger.info("MobilpriseActivity:" + strber);
 

@@ -38,7 +38,7 @@ public class CodeGenerator {
         System.out.println(help.toString());
         if (scanner.hasNext()) {
             String ipt = scanner.next();
-            if (StringUtils.isNotEmpty(ipt)) {
+            if (StringUtils.isNotBlank(ipt)) {
                 return ipt;
             }
         }
@@ -50,13 +50,13 @@ public class CodeGenerator {
         AutoGenerator mpg = new AutoGenerator();
         String moduleName = scanner("模块名称");
         String featuresName = scanner("业务包名");
-        String read_or_write = scanner("Read Or Write");
+        String readOrWrite = scanner("Read Or Write");
         // 全局配置
-        mpg.setGlobalConfig(Config.getGlobalConfig(read_or_write));
+        mpg.setGlobalConfig(Config.getGlobalConfig(readOrWrite));
         // 数据源配置
         mpg.setDataSource(Config.getDataSourceConfig());
         // 包配置
-        mpg.setPackageInfo(Config.getPackageConfig(moduleName, featuresName, read_or_write));
+        mpg.setPackageInfo(Config.getPackageConfig(moduleName, featuresName, readOrWrite));
 
         // 自定义配置
         InjectionConfig cfg = new InjectionConfig() {

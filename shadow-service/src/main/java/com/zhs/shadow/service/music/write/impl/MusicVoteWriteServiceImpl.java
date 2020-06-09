@@ -3,7 +3,6 @@ package com.zhs.shadow.service.music.write.impl;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.alibaba.fastjson.JSONObject;
 import com.zhs.shadow.common.util.HttpClientUtils;
 import com.zhs.shadow.service.music.write.MusicVoteWriteService;
 import org.springframework.stereotype.Service;
@@ -15,7 +14,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class MusicVoteWriteServiceImpl implements MusicVoteWriteService {
 
-    private final static String url = "http://xshell.xgsuu.cn//WeChat.php?m=Xue&c=MusicVote&a=vote&fengxue=261&id=508";
+    private final static String URL = "http://xshell.xgsuu.cn//WeChat.php?m=Xue&c=MusicVote&a=vote&fengxue=261&id=508";
 
     @Override
     public void refreshData() throws Exception {
@@ -28,7 +27,7 @@ public class MusicVoteWriteServiceImpl implements MusicVoteWriteService {
         paramMap.put("id", "26106");
         Map<String, String> requestHeader = new HashMap<String, String>(4);
         requestHeader.put("Content-Type", "application/json");
-        String s = HttpClientUtils.doPost(url, requestHeader, paramMap);
+        String s = HttpClientUtils.doPost(URL, requestHeader, paramMap);
         System.out.println("-----------------");
         System.out.println(s);
     }
