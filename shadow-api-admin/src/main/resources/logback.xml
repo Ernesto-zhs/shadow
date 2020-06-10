@@ -6,7 +6,7 @@
 
     <!--配置-->
     <contextName>shadow-admin</contextName>
-    <property name="log.path" value="log/shadow/" />
+    <property name="log.path" value="/log/shadow" />
 
     <!--开发环境中 输出到控制台-->
     <appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
@@ -22,14 +22,14 @@
             <level>ERROR</level>
         </filter>
         <rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy">
-            <fileNamePattern>${log.path}/logback-admin-error.%d.log</fileNamePattern>
+            <fileNamePattern>${log.path}/shadow-admin-error.%d.log</fileNamePattern>
         </rollingPolicy>
         <encoder>
             <pattern>%d %contextName [%thread] |%-5level| %logger{36} - %msg%n</pattern>
         </encoder>
     </appender>
 
-    <root level="debug">
+    <root level="info">
         <appender-ref ref="STDOUT" />
         <appender-ref ref="FILE_ERROR" />
     </root>

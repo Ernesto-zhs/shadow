@@ -29,9 +29,10 @@ public class MusicVoteScheduleTask {
      * 定时任务
      * cron表达式  @Scheduled(cron = "* * * 10 * ?")
      * 指定时间间隔 @Scheduled(fixedRate=5000)
+     * 每小时执行一次
      * @throws Exception
      */
-    @Scheduled(cron = "* * * 10 * ?")
+    @Scheduled(cron = "0 0 0/1 * * ? ")
     private void configureTasks() throws Exception {
         logger.info("定时任务开始");
         // musicVoteWriteService.refreshData();
