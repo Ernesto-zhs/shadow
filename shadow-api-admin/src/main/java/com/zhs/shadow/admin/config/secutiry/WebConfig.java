@@ -1,4 +1,4 @@
-package com.zhs.shadow.admin.config;
+package com.zhs.shadow.admin.config.secutiry;
 
 import com.zhs.shadow.admin.filter.AdminInterceptor;
 import org.springframework.context.annotation.Configuration;

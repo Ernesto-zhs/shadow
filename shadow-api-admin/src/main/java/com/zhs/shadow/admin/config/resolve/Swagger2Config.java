@@ -1,4 +1,4 @@
-package com.zhs.shadow.admin.config;
+package com.zhs.shadow.admin.config.resolve;
 
 import springfox.documentation.builders.ApiInfoBuilder;
 import springfox.documentation.builders.PathSelectors;

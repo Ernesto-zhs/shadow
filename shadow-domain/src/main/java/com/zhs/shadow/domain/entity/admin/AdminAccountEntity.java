@@ -18,8 +18,7 @@ import com.zhs.shadow.domain.entity.BaseEntity;
  * @since 2020-05-18
  */
 @Data
-
-@TableName("tb_admin_account")
+@TableName("tb_admin_user_account")
 public class AdminAccountEntity extends BaseEntity {
 
     private static final long serialVersionUID = 1L;
@@ -33,6 +32,11 @@ public class AdminAccountEntity extends BaseEntity {
      * 登陆密码
      */
     private String loginPassword;
+
+    /**
+     * 账号类型 1用户名 2手机号码
+     */
+    private Short accountType;
 
     /**
      * 用户ID

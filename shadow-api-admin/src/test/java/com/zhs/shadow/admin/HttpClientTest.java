@@ -12,13 +12,15 @@ public class HttpClientTest {
 
     public static void main(String[] args) {
         for (int i = 1; i <= 1; i++) {
-            String url = "http://xshell.xgsuu.cn/WeChat.php?m=Xue&c=MusicVote&a=vote&fengxue=261&id=508";
-            long time = System.currentTimeMillis() / 1000 + i * 60000;
+            String url = "http://127.0.0.1:8080/web/statisticsBusinessOrder/queryOrderAnalyze";
             try {
                 Map<String, String> dataMap = new HashMap<>(4);
                 dataMap.put("id", "26106");
                 Map<String, String> requestHeader = new HashMap<String, String>();
-                requestHeader.put("Content-Type:", "application/x-www-form-urlencoded");
+                requestHeader.put("Content-Type:", "application/json");
+                requestHeader.put("X-LOGINNAME", "18855088242");
+                requestHeader.put("X-BID", "186");
+//                requestHeader.put("X-TOKEN", "eyJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxODYiLCJleHAiOjE1OTQwMDM5ODZ9.CJdZo4gfDNp1nGEw95qhY_0vzp4pMMIUR4qMpVn1Xew");
                 String s = HttpClientUtils.doPost(url, requestHeader, dataMap);
                 System.out.println("-----------------");
                 System.out.println(s);

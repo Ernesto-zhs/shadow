@@ -17,7 +17,7 @@ import com.zhs.shadow.domain.entity.BaseEntity;
  */
 @Data
 
-@TableName("tb_admin_info")
+@TableName("tb_admin_user_info")
 public class AdminInfoEntity extends BaseEntity {
 
     private static final long serialVersionUID = 1L;

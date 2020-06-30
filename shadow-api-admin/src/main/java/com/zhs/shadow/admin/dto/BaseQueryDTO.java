@@ -17,5 +17,4 @@ public class BaseQueryDTO {
     @ApiModelProperty(value = "每页显示的条数")
     private Integer pageSize;
 
-
 }

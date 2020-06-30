@@ -1,4 +1,4 @@
-package com.zhs.shadow.admin.config;
+package com.zhs.shadow.admin.config.secutiry;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

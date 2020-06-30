@@ -7,7 +7,6 @@ import java.util.List;
 import io.swagger.annotations.Api;
 import io.swagger.annotations.ApiOperation;
 
-import com.zhs.shadow.admin.annotation.SystemControllerLog;
 import com.zhs.shadow.admin.vo.city.GdCityVo;
 import com.zhs.shadow.common.response.CommonResult;
 import com.zhs.shadow.common.util.BeanUtils;
@@ -44,7 +43,6 @@ public class GdCityController {
     @Autowired
     private GdCityWriteService gdCityWriteService;
 
-    @SystemControllerLog(description = "查询所有城市信息")
     @ApiOperation(value = "查询所有城市信息", httpMethod = "POST")
     @RequestMapping(value = "/queryCityInfo", method = {RequestMethod.GET, RequestMethod.POST})
     public @ResponseBody

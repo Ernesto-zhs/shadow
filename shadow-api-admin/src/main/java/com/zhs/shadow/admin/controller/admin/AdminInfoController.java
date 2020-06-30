@@ -14,8 +14,8 @@ import org.springframework.web.bind.annotation.RestController;
  * @since 2020-05-18
  */
 @RestController
-@RequestMapping("/admin/adminInfo")
-@Api(value = "/admin/adminInfo", description = "管理员信息控制器")
+@RequestMapping("/admin/info")
+@Api(value = "/admin/info", description = "管理员信息控制器")
 public class AdminInfoController {
 
 }
