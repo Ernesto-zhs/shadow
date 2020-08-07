@@ -14,3 +14,5 @@ target/
 .log
 log/*
 Log/*
+
+/*/src/test/**
