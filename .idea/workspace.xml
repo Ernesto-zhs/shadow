@@ -1,0 +1,736 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AnalysisUIOptions">
+    <option name="GROUP_BY_SEVERITY" value="true" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="76a463d9-ba67-4d56-9cdf-2fbf50889f8c" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/shadow-commons/src/main/java/com/zhs/shadow/common/util/RandomUtils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-api-admin/src/main/java/com/zhs/shadow/admin/vo/admin/AdminAccountVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/shadow-api-admin/src/main/java/com/zhs/shadow/admin/vo/admin/AdminAccountVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-api-admin/src/main/java/com/zhs/shadow/admin/vo/admin/AdminInfoVo.java" beforeDir="false" afterPath="$PROJECT_DIR$/shadow-api-admin/src/main/java/com/zhs/shadow/admin/vo/admin/AdminInfoVo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-api-admin/src/test/java/com/zhs/shadow/admin/MybatisPlusTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/shadow-api-admin/src/test/java/com/zhs/shadow/admin/MybatisPlusTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/shadow-commons/src/main/java/com/zhs/shadow/common/response/CommonResult.java" beforeDir="false" afterPath="$PROJECT_DIR$/shadow-commons/src/main/java/com/zhs/shadow/common/response/CommonResult.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>com.zhs.shadow.admin.entity.admin.AdminInfoEntity</find>
+      <find>com.zhs.shadow.entity.admin.AdminInfoEntity</find>
+      <find>com.zhs.shadow.city.domain.entity.admin.GdCityEntity</find>
+      <find>com.zhs.shadow.domain.entity.admin.GdCityEntity</find>
+      <find>com.zhs.shadow.city.dao.mapper.GdCityMapper</find>
+      <find>com.zhs.shadow.entity.config.ConfigInfoEntity</find>
+      <find>com.zhs.shadow.entity.config.ConfigKeyEntity</find>
+      <find>com.zhs.shadow.admin.dao.mapper</find>
+      <find>com.zhs.shadow.admin.entity.admin.</find>
+      <find>com.zhs.shadow.admin.service.admin</find>
+      <find>mybatis</find>
+      <find>测试的DTO对象</find>
+      <find>\@EqualsAndHashCode\(callSuper \= true\)\n\@Accessors\(chain \= true\)</find>
+      <find>lombok</find>
+      <find>lom</find>
+      <find>shadow-score</find>
+      <find>&lt;groupId&gt;org.projectlombok&lt;/groupId&gt;</find>
+      <find>null</find>
+      <find>\&lt;exclusions\&gt;\n                \&lt;exclusion\&gt;\n                    \&lt;groupId\&gt;org\.slf4j\&lt;\/groupId\&gt;\n                    \&lt;artifactId\&gt;slf4j\-api\&lt;\/artifactId\&gt;\n                \&lt;\/exclusion\&gt;\n            \&lt;\/exclusions\&gt;</find>
+      <find>&lt;groupId&gt;org.slf4j&lt;/groupId&gt;</find>
+      <find>jackson</find>
+      <find>StringUtils</find>
+      <find>commons-lang</find>
+      <find>bbd</find>
+      <find>executions</find>
+      <find>aspectj.version</find>
+      <find>bbd-shop</find>
+      <find>log.path</find>
+      <find>private</find>
+      <find>success</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>com.zhs.shadow.domain.entity</replace>
+      <replace>com.zhs.shadow.domain.entity。admin.AdminAccountEntity</replace>
+      <replace>com.zhs.shadow.domain.entity.admin.AdminAccountEntity</replace>
+      <replace>com.zhs.shadow.admin.entity</replace>
+      <replace>com.zhs.shadow.entity.config</replace>
+      <replace>com.zhs.shadow.service.config.read</replace>
+      <replace>com.zhs.shadow.entity.admin.AdminInfoEntity</replace>
+      <replace>com.zhs.shadow.domain.entity.admin.AdminInfoEntity</replace>
+      <replace>com.zhs.shadow.domain.entity.admin.GdCityEntity</replace>
+      <replace>com.zhs.shadow.domain.entity.city.GdCityEntity</replace>
+      <replace>com.zhs.shadow.dao.mapper.GdCityMapper</replace>
+      <replace>com.zhs.shadow.domain.entity.config.ConfigInfoEntity</replace>
+      <replace>com.zhs.shadow.domain.entity.config.ConfigKeyEntity</replace>
+      <replace>com.zhs.shadow.dao.mapper</replace>
+      <replace>com.zhs.shadow.entity.admin.</replace>
+      <replace>com.zhs.shadow.domain.entity.admin.</replace>
+      <replace>com.zhs.shadow.service.admin</replace>
+      <replace>{}</replace>
+      <replace />
+      <replace>shadow</replace>
+      <replace>shadow-admin</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="D:/Develop/apache-maven-3.5.4" />
+        <option name="userSettingsFile" value="D:\Develop\apache-maven-3.5.4\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1f4kurkSqp2cVfdGpes7TcSMFIm" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1589978888122" />
+    <property name="extract.method.default.visibility" value="private" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="editing.templates" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.zhs.shadow.redis" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.zhs.shadow.core" />
+      <recent name="com.zhs.shadow.admin.dto.admin" />
+      <recent name="com.zhs.shadow.admin.annotation" />
+      <recent name="com.zhs.shadow.common.annotation" />
+      <recent name="com.zhs.shadow.admin.component" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\DevelopProjects\MyProjects\shadow\shadow-api-admin\src\main\resources" />
+      <recent name="E:\DevelopProjects\MyProjects\shadow\shadow-service\src\main\java\com\zhs\shadow\service\admin\write" />
+      <recent name="E:\DevelopProjects\MyProjects\shadow\shadow-service\src\main\java\com\zhs\shadow\service\admin\read" />
+      <recent name="E:\DevelopProjects\MyProjects\shadow\shadow-dao\src\main\resources\com\zhs\shadow\dao\mapper" />
+      <recent name="E:\DevelopProjects\MyProjects\shadow\shadow-dao\src\main\java\com\zhs\shadow\dao\mapper" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.MybatisPlusTest.insertTest">
+    <configuration name="HttpClientTest" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhs.shadow.admin.HttpClientTest" />
+      <module name="shadow-api-admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhs.shadow.admin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestSS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.zhs.shadow.admin.TestSS" />
+      <module name="shadow-api-admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhs.shadow.admin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisPlusTest.insertTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shadow-api-admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhs.shadow.admin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zhs.shadow.admin" />
+      <option name="MAIN_CLASS_NAME" value="com.zhs.shadow.admin.MybatisPlusTest" />
+      <option name="METHOD_NAME" value="insertTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MybatisPlusTest.listTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shadow-api-admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhs.shadow.admin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zhs.shadow.admin" />
+      <option name="MAIN_CLASS_NAME" value="com.zhs.shadow.admin.MybatisPlusTest" />
+      <option name="METHOD_NAME" value="listTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="RedisTest.getTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="shadow-api-admin" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.zhs.shadow.admin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.zhs.shadow.admin" />
+      <option name="MAIN_CLASS_NAME" value="com.zhs.shadow.admin.RedisTest" />
+      <option name="METHOD_NAME" value="getTest" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="shadow-api-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zhs.shadow.admin.AdminApplication" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.HttpClientTest" />
+      <item itemvalue="Application.TestSS" />
+      <item itemvalue="JUnit.RedisTest.getTest" />
+      <item itemvalue="JUnit.MybatisPlusTest.listTest" />
+      <item itemvalue="JUnit.MybatisPlusTest.insertTest" />
+      <item itemvalue="Spring Boot.AdminApplication" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.MybatisPlusTest.insertTest" />
+        <item itemvalue="Application.TestSS" />
+        <item itemvalue="Application.HttpClientTest" />
+        <item itemvalue="JUnit.MybatisPlusTest.listTest" />
+        <item itemvalue="JUnit.RedisTest.getTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="StructureViewFactory">
+    <option name="ACTIVE_ACTIONS" value=",SHOW_PROPERTIES,SHOW_INTERFACES" />
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="76a463d9-ba67-4d56-9cdf-2fbf50889f8c" name="Default Changelist" comment="" />
+      <created>1587606825772</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1587606825772</updated>
+      <workItem from="1587606829225" duration="100000" />
+      <workItem from="1587606966606" duration="49000" />
+      <workItem from="1587607169313" duration="115000" />
+      <workItem from="1587623473037" duration="10000" />
+      <workItem from="1587713657923" duration="1962000" />
+      <workItem from="1587720326773" duration="283000" />
+      <workItem from="1588911451473" duration="4319000" />
+      <workItem from="1589166511233" duration="3401000" />
+      <workItem from="1589292975039" duration="700000" />
+      <workItem from="1589522817216" duration="300000" />
+      <workItem from="1589765841576" duration="30034000" />
+      <workItem from="1589850983347" duration="11056000" />
+      <workItem from="1589862504166" duration="8429000" />
+      <workItem from="1589962701206" duration="1818000" />
+      <workItem from="1589979225981" duration="251000" />
+      <workItem from="1589979516474" duration="803000" />
+      <workItem from="1590130035204" duration="3772000" />
+      <workItem from="1590153925535" duration="2088000" />
+      <workItem from="1590197045258" duration="1391000" />
+      <workItem from="1590370197265" duration="2929000" />
+      <workItem from="1590456301657" duration="7503000" />
+      <workItem from="1590504327632" duration="593000" />
+      <workItem from="1590542694216" duration="1809000" />
+      <workItem from="1590547945617" duration="2000" />
+      <workItem from="1590548481849" duration="4813000" />
+      <workItem from="1590581287421" duration="667000" />
+      <workItem from="1590655276828" duration="5188000" />
+      <workItem from="1590667466998" duration="536000" />
+      <workItem from="1590716025195" duration="4442000" />
+      <workItem from="1590740325845" duration="1636000" />
+      <workItem from="1590802410330" duration="1483000" />
+      <workItem from="1590975284261" duration="1780000" />
+      <workItem from="1590977072645" duration="8095000" />
+      <workItem from="1591062085279" duration="5271000" />
+      <workItem from="1591089741973" duration="2950000" />
+      <workItem from="1591146906526" duration="4590000" />
+      <workItem from="1591234116159" duration="5574000" />
+      <workItem from="1591321629037" duration="4606000" />
+      <workItem from="1591406984984" duration="3580000" />
+      <workItem from="1591416292068" duration="1572000" />
+      <workItem from="1591584319283" duration="13172000" />
+      <workItem from="1591617390584" duration="595000" />
+      <workItem from="1591684474615" duration="1904000" />
+      <workItem from="1591703199057" duration="624000" />
+      <workItem from="1591752429530" duration="10889000" />
+      <workItem from="1591791623592" duration="205000" />
+      <workItem from="1591839278169" duration="643000" />
+      <workItem from="1591929459444" duration="67000" />
+      <workItem from="1591955309460" duration="1360000" />
+      <workItem from="1592276005607" duration="8492000" />
+      <workItem from="1592356754939" duration="598000" />
+      <workItem from="1592362447966" duration="453000" />
+      <workItem from="1592365267576" duration="1339000" />
+      <workItem from="1592444369393" duration="1676000" />
+      <workItem from="1592464907049" duration="1199000" />
+      <workItem from="1592540591467" duration="4740000" />
+      <workItem from="1592616632194" duration="3124000" />
+      <workItem from="1592643525553" duration="1028000" />
+      <workItem from="1592788437027" duration="3067000" />
+      <workItem from="1592875735292" duration="1007000" />
+      <workItem from="1592903177509" duration="5782000" />
+      <workItem from="1593482510727" duration="1154000" />
+      <workItem from="1593600346203" duration="615000" />
+      <workItem from="1593857132117" duration="817000" />
+      <workItem from="1593998340380" duration="16000" />
+      <workItem from="1595294832514" duration="681000" />
+      <workItem from="1595313592302" duration="601000" />
+      <workItem from="1595391894932" duration="18000" />
+      <workItem from="1595401210678" duration="62000" />
+      <workItem from="1595476608395" duration="101000" />
+      <workItem from="1595484985044" duration="162000" />
+      <workItem from="1596788679414" duration="308000" />
+    </task>
+    <task id="LOCAL-00001" summary="redis">
+      <created>1588911577338</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1588911577338</updated>
+    </task>
+    <task id="LOCAL-00002" summary="redis">
+      <created>1589293221254</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1589293221254</updated>
+    </task>
+    <task id="LOCAL-00003" summary="commons">
+      <created>1589765888630</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1589765888630</updated>
+    </task>
+    <task id="LOCAL-00004" summary="代码生成">
+      <created>1589787846843</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1589787846843</updated>
+    </task>
+    <task id="LOCAL-00005" summary="生成代码">
+      <created>1589790058180</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1589790058180</updated>
+    </task>
+    <task id="LOCAL-00006" summary="生成代码">
+      <created>1589793629127</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1589793629127</updated>
+    </task>
+    <task id="LOCAL-00007" summary="整合依赖">
+      <created>1589794758672</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1589794758672</updated>
+    </task>
+    <task id="LOCAL-00008" summary="整合依赖">
+      <created>1589806313580</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1589806313580</updated>
+    </task>
+    <task id="LOCAL-00009" summary="整合依赖">
+      <created>1589806560358</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1589806560358</updated>
+    </task>
+    <task id="LOCAL-00010" summary="数据库连接通畅">
+      <created>1589808447391</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1589808447391</updated>
+    </task>
+    <task id="LOCAL-00011" summary="重命名表，添加Redis配置">
+      <created>1589853820053</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1589853820054</updated>
+    </task>
+    <task id="LOCAL-00012" summary="重命名表，添加Redis配置">
+      <created>1589859936923</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1589859936923</updated>
+    </task>
+    <task id="LOCAL-00013" summary="测试redis">
+      <created>1589860381858</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1589860381858</updated>
+    </task>
+    <task id="LOCAL-00014" summary="整合依赖">
+      <created>1589872265874</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1589872265874</updated>
+    </task>
+    <task id="LOCAL-00015" summary="整合依赖">
+      <created>1589873342069</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1589873342069</updated>
+    </task>
+    <task id="LOCAL-00016" summary="整合依赖">
+      <created>1589874563634</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1589874563634</updated>
+    </task>
+    <task id="LOCAL-00017" summary="整合依赖">
+      <created>1589875791919</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1589875791919</updated>
+    </task>
+    <task id="LOCAL-00018" summary="整合依赖">
+      <created>1590402872534</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1590402872534</updated>
+    </task>
+    <task id="LOCAL-00019" summary="添加http请求操作">
+      <created>1590656383360</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1590656383360</updated>
+    </task>
+    <task id="LOCAL-00020" summary="添加http请求操作">
+      <created>1590657270822</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1590657270822</updated>
+    </task>
+    <task id="LOCAL-00021" summary="日志相关">
+      <created>1591017966035</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1591017966035</updated>
+    </task>
+    <task id="LOCAL-00022" summary="连接上测试redis">
+      <created>1591078241224</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1591078241224</updated>
+    </task>
+    <task id="LOCAL-00023" summary="update">
+      <created>1591242496822</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1591242496822</updated>
+    </task>
+    <task id="LOCAL-00024" summary="配置相关">
+      <created>1591325634754</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1591325634754</updated>
+    </task>
+    <task id="LOCAL-00025" summary="更新内容">
+      <created>1591703386131</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1591703386131</updated>
+    </task>
+    <task id="LOCAL-00026" summary="更新内容">
+      <created>1591759653108</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1591759653108</updated>
+    </task>
+    <task id="LOCAL-00027" summary="更新内容">
+      <created>1591771882219</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1591771882219</updated>
+    </task>
+    <task id="LOCAL-00028" summary="更新内容">
+      <created>1593483587898</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1593483587898</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="MybatisPlusTest_insertTest - 2020.06.08 at 16h 07m 16s.xml">
+      <configuration name="MybatisPlusTest.insertTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MybatisPlusTest_insertTest - 2020.06.08 at 16h 21m 47s.xml">
+      <configuration name="MybatisPlusTest.insertTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MybatisPlusTest_insertTest - 2020.06.08 at 16h 24m 25s.xml">
+      <configuration name="MybatisPlusTest.insertTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MybatisPlusTest_insertTest - 2020.06.08 at 16h 56m 28s.xml">
+      <configuration name="MybatisPlusTest.insertTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MybatisPlusTest_insertTest - 2020.06.08 at 16h 59m 35s.xml">
+      <configuration name="MybatisPlusTest.insertTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MybatisPlusTest_insertTest - 2020.06.08 at 17h 02m 20s.xml">
+      <configuration name="MybatisPlusTest.insertTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MybatisPlusTest_insertTest - 2020.06.08 at 17h 04m 36s.xml">
+      <configuration name="MybatisPlusTest.insertTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MybatisPlusTest_insertTest - 2020.06.08 at 17h 06m 56s.xml">
+      <configuration name="MybatisPlusTest.insertTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MybatisPlusTest_insertTest - 2020.06.08 at 17h 47m 45s.xml">
+      <configuration name="MybatisPlusTest.insertTest" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="MybatisPlusTest_insertTest - 2020.06.08 at 18h 28m 20s.xml">
+      <configuration name="MybatisPlusTest.insertTest" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="2" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="redis" />
+    <MESSAGE value="commons" />
+    <MESSAGE value="代码生成" />
+    <MESSAGE value="生成代码" />
+    <MESSAGE value="数据库连接通畅" />
+    <MESSAGE value="重命名表，添加Redis配置" />
+    <MESSAGE value="测试redis" />
+    <MESSAGE value="整合依赖" />
+    <MESSAGE value="添加http请求操作" />
+    <MESSAGE value="日志相关" />
+    <MESSAGE value="连接上测试redis" />
+    <MESSAGE value="update" />
+    <MESSAGE value="配置相关" />
+    <MESSAGE value="更新内容" />
+    <option name="LAST_COMMIT_MESSAGE" value="更新内容" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state width="1879" height="294" key="GridCell.Tab.0.bottom" timestamp="1595485150471">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1879" height="294" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1595485150471" />
+    <state width="1879" height="294" key="GridCell.Tab.0.center" timestamp="1595485150470">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1879" height="294" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1595485150470" />
+    <state width="1879" height="294" key="GridCell.Tab.0.left" timestamp="1595485150470">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1879" height="294" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1595485150470" />
+    <state width="1879" height="294" key="GridCell.Tab.0.right" timestamp="1595485150471">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="1879" height="294" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1595485150471" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-field">
+          <url>file://$PROJECT_DIR$/shadow-generate/src/main/java/com/shadow/generate/Config.java</url>
+          <line>18</line>
+          <properties field="DB_USERNAME" class="com.shadow.generate.Config" />
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>EntityUtils.toString(response.getEntity(), &quot;utf-8&quot;)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>httpClient.execute(httpPost)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>HttpClientUtil.invokePostHttpByJsonParam(url, JSONObject.toJSONString(dataMap), &quot;UTF-8&quot;, requestHeader)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>gdCityWriteService.update(entity, wrapper)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <last-edited>shadow-api-admin:war</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.5" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>Spring</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>shadow-api-admin</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <last-edited>Maven: ch.qos.logback:logback-classic:1.2.3</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+  <component name="mavenExecuteGoalHistory">
+    <option value="" />
+  </component>
+</project>

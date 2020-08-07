@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="shadow-api-admin:war">
+    <output-path>$PROJECT_DIR$/shadow-api-admin/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>shadow-api-admin</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="shadow-admin-api.war">
+      <element id="artifact" artifact-name="shadow-api-admin:war exploded" />
+    </root>
+  </artifact>
+</component>
