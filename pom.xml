@@ -32,7 +32,7 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
         <pagehelper.version>1.2.10</pagehelper.version>
-        <ali.fastjson.version>1.2.68</ali.fastjson.version>
+        <ali.fastjson.version>1.2.83</ali.fastjson.version>
         <ali.druid.version>1.1.10</ali.druid.version>
         <apache.common.version>3.9</apache.common.version>
         <mybatis-plus.version>3.3.0</mybatis-plus.version>
