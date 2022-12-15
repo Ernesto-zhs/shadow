@@ -14,7 +14,7 @@ import org.springframework.stereotype.Service;
 @Service
 public class MusicVoteWriteServiceImpl implements MusicVoteWriteService {
 
-    private final static String URL = "http://xshell.xgsuu.cn//WeChat.php?m=Xue&c=MusicVote&a=vote&fengxue=261&id=508";
+    private static final String URL = "http://xshell.xgsuu.cn//WeChat.php?m=Xue&c=MusicVote&a=vote&fengxue=261&id=508";
 
     @Override
     public void refreshData() throws Exception {

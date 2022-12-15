@@ -1,9 +1,5 @@
 package com.shadow.generate;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Scanner;
-
 import com.baomidou.mybatisplus.core.exceptions.MybatisPlusException;
 import com.baomidou.mybatisplus.core.toolkit.StringPool;
 import com.baomidou.mybatisplus.core.toolkit.StringUtils;
@@ -16,15 +12,20 @@ import com.baomidou.mybatisplus.generator.config.po.TableInfo;
 import com.baomidou.mybatisplus.generator.config.rules.NamingStrategy;
 import com.baomidou.mybatisplus.generator.engine.FreemarkerTemplateEngine;
 
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Scanner;
+
 /**
  * 生成器
+ *
  * @author Austin
  */
 public class CodeGenerator {
 
-    private static String projectPath = System.getProperty("user.dir");
+    private static final String PROJECT_PATH = System.getProperty("user.dir");
 
-    private static String mapperXmlPath = "com/zhs/shadow/dao/mapper";
+    private static final String MAPPER_XML_PATH = "com/zhs/shadow/dao/mapper";
 
     /**
      * <p>
@@ -33,9 +34,7 @@ public class CodeGenerator {
      */
     public static String scanner(String tip) {
         Scanner scanner = new Scanner(System.in);
-        StringBuilder help = new StringBuilder();
-        help.append("请输入" + tip + "：");
-        System.out.println(help.toString());
+        System.out.println("请输入" + tip + "：");
         if (scanner.hasNext()) {
             String ipt = scanner.next();
             if (StringUtils.isNotBlank(ipt)) {
@@ -78,7 +77,7 @@ public class CodeGenerator {
             @Override
             public String outputFile(TableInfo tableInfo) {
                 // 自定义输出文件名 ， 如果你 Entity 设置了前后缀、此处注意 xml 的名称会跟着发生变化！！
-                return projectPath + "/shadow-generate/src/main/resources/" + mapperXmlPath
+                return PROJECT_PATH + "/shadow-generate/src/main/resources/" + MAPPER_XML_PATH
                         + "/" + tableInfo.getControllerName().split("Controller")[0] + "Mapper" + StringPool.DOT_XML;
             }
         });

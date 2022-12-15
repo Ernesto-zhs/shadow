@@ -6,6 +6,14 @@ package com.zhs.shadow.common.enums;
  */
 public interface Constants {
 
+    // -- 基础
+    // GlobalConstants
+    // ResponseConde
+    //
+
+
+    // 业务模块 + 功能模块 + Constants -- 通用
+
     /**
      * 本地IPv4地址
      */
