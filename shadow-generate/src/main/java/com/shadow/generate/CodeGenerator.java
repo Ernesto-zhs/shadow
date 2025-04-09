@@ -27,6 +27,8 @@ public class CodeGenerator {
 
     private static final String MAPPER_XML_PATH = "com/zhs/shadow/dao/mapper";
 
+    private static final String TABLE_PREFIX = "tms_";
+
     /**
      * <p>
      * 读取控制台内容
@@ -47,28 +49,23 @@ public class CodeGenerator {
     public static void main(String[] args) {
         // 代码生成器
         AutoGenerator mpg = new AutoGenerator();
-        String moduleName = scanner("模块名称");
-        String featuresName = scanner("业务包名");
-        String readOrWrite = scanner("Read Or Write");
         // 全局配置
-        mpg.setGlobalConfig(Config.getGlobalConfig(readOrWrite));
+        mpg.setGlobalConfig(Config.getGlobalConfig());
         // 数据源配置
         mpg.setDataSource(Config.getDataSourceConfig());
         // 包配置
-        mpg.setPackageInfo(Config.getPackageConfig(moduleName, featuresName, readOrWrite));
+        mpg.setPackageInfo(Config.getPackageConfig());
 
         // 自定义配置
         InjectionConfig cfg = new InjectionConfig() {
             @Override
             public void initMap() {
-                // to do nothing
+                // TODO document why this method is empty
             }
         };
 
         // 如果模板引擎是 freemarker
         String templatePath = "/templates/mapper.xml.ftl";
-        // 如果模板引擎是 velocity
-        // String templatePath = "/templates/mapper.xml.vm";
 
         // 自定义输出配置
         List<FileOutConfig> focList = new ArrayList<>();
@@ -81,45 +78,23 @@ public class CodeGenerator {
                         + "/" + tableInfo.getControllerName().split("Controller")[0] + "Mapper" + StringPool.DOT_XML;
             }
         });
-        /*
-        cfg.setFileCreate(new IFileCreate() {
-            @Override
-            public boolean isCreate(ConfigBuilder configBuilder, FileType fileType, String filePath) {
-                // 判断自定义文件夹是否需要创建
-                checkDir("调用默认方法创建的目录");
-                return false;
-            }
-        });
-        */
         cfg.setFileOutConfigList(focList);
         mpg.setCfg(cfg);
 
         // 配置模板
         TemplateConfig templateConfig = new TemplateConfig();
-
-        // 配置自定义输出模板
-        //指定自定义模板路径，注意不要带上.ftl/.vm, 会根据使用的模板引擎自动识别
-        // templateConfig.setEntity("templates/entity2.java");
-        // templateConfig.setService();
-        // templateConfig.setController();
-
         templateConfig.setXml(null);
         mpg.setTemplate(templateConfig);
 
         // 策略配置
         StrategyConfig strategy = new StrategyConfig();
+        strategy.setInclude(scanner("表名，多个英文逗号分割").split(","));
         strategy.setNaming(NamingStrategy.underline_to_camel);
         strategy.setColumnNaming(NamingStrategy.underline_to_camel);
-        strategy.setSuperEntityClass("com.zhs.shadow.domain.entity.BaseEntity");
         strategy.setEntityLombokModel(true);
         strategy.setRestControllerStyle(true);
-        // 公共父类
-//        strategy.setSuperControllerClass("com.bbd.shop.api.admin.BaseController");
-        // 写于父类中的公共字段
-        strategy.setSuperEntityColumns("id", "create_time", "update_time", "deleted");
-        strategy.setInclude(scanner("表名，多个英文逗号分割").split(","));
         strategy.setControllerMappingHyphenStyle(true);
-        strategy.setTablePrefix("tb_");
+        strategy.setTablePrefix(TABLE_PREFIX);
         mpg.setStrategy(strategy);
         mpg.setTemplateEngine(new FreemarkerTemplateEngine());
         mpg.execute();
