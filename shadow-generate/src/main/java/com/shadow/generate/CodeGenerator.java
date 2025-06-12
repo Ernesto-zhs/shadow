@@ -25,9 +25,9 @@ public class CodeGenerator {
 
     private static final String PROJECT_PATH = System.getProperty("user.dir");
 
-    private static final String MAPPER_XML_PATH = "com/zhs/shadow/dao/mapper";
+    private static final String MAPPER_XML_PATH = "mapper/replenish/";
 
-    private static final String TABLE_PREFIX = "tms_";
+    private static final String TABLE_PREFIX = "ops_";
 
     /**
      * <p>
@@ -75,7 +75,7 @@ public class CodeGenerator {
             public String outputFile(TableInfo tableInfo) {
                 // 自定义输出文件名 ， 如果你 Entity 设置了前后缀、此处注意 xml 的名称会跟着发生变化！！
                 return PROJECT_PATH + "/shadow-generate/src/main/resources/" + MAPPER_XML_PATH
-                        + "/" + tableInfo.getControllerName().split("Controller")[0] + "Mapper" + StringPool.DOT_XML;
+                        + tableInfo.getControllerName().split("Controller")[0] + "Mapper" + StringPool.DOT_XML;
             }
         });
         cfg.setFileOutConfigList(focList);
@@ -92,6 +92,8 @@ public class CodeGenerator {
         strategy.setNaming(NamingStrategy.underline_to_camel);
         strategy.setColumnNaming(NamingStrategy.underline_to_camel);
         strategy.setEntityLombokModel(true);
+        strategy.setEntitySerialVersionUID(false);
+        strategy.setEntityTableFieldAnnotationEnable(true);
         strategy.setRestControllerStyle(true);
         strategy.setControllerMappingHyphenStyle(true);
         strategy.setTablePrefix(TABLE_PREFIX);
